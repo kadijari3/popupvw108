@@ -1,23 +1,26 @@
 .vw108menyala {
-      font-family: Arial, sans-serif;
+      font-family: Gotham, sans-serif;
       display: flex;
       justify-content: center;
       align-items: center;
-      z-index: 9999;
 
       display: none;
       position: fixed;
-      top: 20px;
+      top: 100px;
       left: 50%;
       transform: translateX(-50%);
-      background-image: linear-gradient(#0093f5, #005dd6);
+      background-image: linear-gradient(#107dd2, #040f44);
       color: white;
-      padding: 5px 14px;
+      padding-right: 15px;
+      padding-left: 15px;
       border-radius: 5px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      font-size: 16px;
-      min-width: 200px; /* Lebar minimal 200px */
-      max-width: 500px;
+      font-size: 12px;
+      min-width: 150px; /* Lebar minimal 200px */
+      max-width: 400px;
+
+      border-style: solid;
+      border-color: #07eefd;
+      border-width: 1px;
     }
 
     .vw108menyala span {
