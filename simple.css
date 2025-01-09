@@ -38,7 +38,7 @@
     
     .endul{
       text-align: center;
-      line-height: 5px;
+      line-height: 3px;
     }
 
     @keyframes slideIn {
